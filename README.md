@@ -23,26 +23,36 @@ lifestyle changes for a better living.
 
 
 
-Attributes of our Dataset: I have divided the columns details as per their domain for having better 
-understanding 
+``Attributes of our Dataset:``
+
+I have divided the columns details as per their domain for having better understanding 
+
  Demographic: 
+    
     o Sex: male or female(Nominal) 
     o Age: Age of the patient;(Continuous - Although the recorded ages have been 
     truncated to whole numbers, the concept of age is continuous) 
     o Education: no further information provided 
+    
+
  Behavioral: 
+
     o Current Smoker: whether or not the patient is a current smoker (Nominal) 
     o Cigs Per Day: the number of cigarettes that the person smoked on average in 
     one day.(can be considered continuous as one can have any number of 
     cigarettes, even half a cigarette.) 
+
  Information on medical history: 
+
     o BP Meds: whether or not the patient was on blood pressure medication 
     (Nominal) 
     o Prevalent Stroke: whether or not the patient had previously had a stroke 
     (Nominal) 
     o Prevalent Hyp: whether or not the patient was hypertensive (Nominal) 
     o Diabetes: whether or not the patient had diabetes (Nominal) 
+
  Information on current medical condition: 
+    
     o Tot Chol: total cholesterol level (Continuous) 
     o Sys BP: systolic blood pressure (Continuous) 
     o Dia BP: diastolic blood pressure (Continuous) 
@@ -51,6 +61,8 @@ understanding
     heart rate though in fact discrete, yet are considered continuous because of 
     large number of possible values.)
     o Glucose: glucose level (Continuous)
+
  Target variable to predict:
+
     o 10 year risk of coronary heart disease (CHD) - (binary: “1”, means “Yes”, “0” 
     means “No”)
