@@ -1,6 +1,6 @@
 ## Heart Disease Prediction Using Machine Learning 
 
-#####Summary: 
+##### Summary: 
 In this project, we have successfully built a Machine Learning model that will keep getting better 
 as we provide more data to predict the likelihood of heart disease within 10 years. 
 After testing multiple models, Logistic Regression (Baseline Model), Decision Tree Classifier 
